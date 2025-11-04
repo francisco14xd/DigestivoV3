@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enciclopedia Semiológica: Digestivo</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #212529;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #007bff;
+        }
+        h3, h4 {
+            color: #343a40;
+        }
+        /* Estilo para las secciones principales colapsables */
+        details.seccion {
+            background: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        details.seccion > summary {
+            font-size: 1.5rem;
+            font-weight: 600;
+            padding: 15px 20px;
+            cursor: pointer;
+            list-style: none; /* Oculta el marcador por defecto */
+            background-color: #f1f3f5;
+            border-bottom: 1px solid #dee2e6;
+            border-radius: 8px 8px 0 0;
+        }
+        details.seccion > summary::-webkit-details-marker {
+            display: none; /* Oculta marcador en Chrome/Safari */
+        }
+        details.seccion[open] > summary {
+            background-color: #e9ecef;
+            border-radius: 8px 8px 0 0;
+        }
+        .contenido-seccion {
+            padding: 20px;
+        }
+        
+        /* Estilo para las sub-secciones colapsables */
+        details.sub-seccion {
+            background: #fdfdfd;
+            border: 1px solid #e9ecef;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        details.sub-seccion > summary {
+            font-size: 1.1rem;
+            font-weight: bold;
+            padding: 10px 15px;
+            cursor: pointer;
+            list-style-position: inside;
+            background-color: #f8f9fa;
+        }
+        details.sub-seccion[open] > summary {
+            background-color: #f1f3f5;
+        }
+        .contenido-sub-seccion {
+            padding: 15px 15px 15px 40px; /* Indentación para el contenido */
+        }
+
+        /* Estilos para Tablas */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        th, td {
+            border: 1px solid #ced4da;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #e9ecef;
+            font-weight: 600;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #f8f9fa;
+        }
+        
+        /* Estilos para elementos especiales */
+        .perla-clinica {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffeeba;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        #indice {
+            background: #fff;
+            padding: 15px 25px;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+            margin-bottom: 25px;
+        }
+        #indice ul {
+            padding-left: 20px;
+        }
+        #indice li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Enciclopedia Semiológica del Aparato Digestivo</h1>
+    <p><strong>ATENCIÓN: CATEDRÁTICO DE SEMIOLOGÍA MÉDICA</strong><br>
+    La presente "Enciclopedia Semiológica" del Capítulo del Aparato Digestivo ha sido elaborada para cumplir con los criterios de exhaustividad, densidad y máxima profundidad exigidos, basándose exclusivamente en los contenidos de las fuentes (Guía U, Argente y Goic).</p>
+
+    <nav id="indice">
+        <h2>Índice Rápido</h2>
+        <ul>
+            <li><a href="#seccion1">I. Definiciones Clave y Conceptos Fundamentales</a></li>
+            <li><a href="#seccion2">II. Técnicas de Exploración (Semiotecnia Minuciosa)</a></li>
+            <li><a href="#seccion3">III. Signos y Síntomas Cardinales y Correlación Clínica</a></li>
+            <li><a href="#seccion4">IV. Perlas Clínicas y Razonamiento Fisiopatológico</a></li>
+            <li><a href="#seccion5">V. Síndromes y Patologías Principales</a></li>
+            <li><a href="#seccion6">VI. Exámenes de Laboratorio Clave</a></li>
+        </ul>
+    </nav>
+
+    <details class="seccion" id="seccion1">
+        <summary>I. Definiciones Clave y Conceptos Fundamentales</summary>
+        <div class="contenido-seccion">
+            <table>
+                <tbody>
+                    <tr><td><strong>Disfagia:</strong></td><td>Dificultad inmediata para trasladar el bolo alimenticio de la boca al estómago.</td></tr>
+                    <tr><td><strong>Odinofagia:</strong></td><td>Dolor que se produce durante el paso de los alimentos.</td></tr>
+                    <tr><td><strong>Dispepsia:</strong></td><td>Dolor o malestar, crónico o recurrente (de más de un mes de duración), localizado en el abdomen superior y a menudo relacionado con la ingesta. Incluye saciedad precoz, distensión abdominal, eructos, acidez, ardor y náuseas.</td></tr>
+                    <tr><td><strong>Náuseas:</strong></td><td>Sensación desagradable de deseo inminente de vomitar.</td></tr>
+                    <tr><td><strong>Vómito (Emesis):</strong></td><td>Expulsión forzada y enérgica del contenido gástrico por la boca.</td></tr>
+                    <tr><td><strong>Diarrea:</strong></td><td>Presencia de tres o más deposiciones líquidas en un período de 24 horas. La definición objetiva es un peso de heces diarias mayor de 200 gramos.</td></tr>
+                    <tr><td><strong>Constipación (Estreñimiento):</strong></td><td>Impresión subjetiva de tener alteraciones en la función intestinal al intentar evacuar. Incluye disminución de la frecuencia, cambio en la consistencia o esfuerzo desmedido.</td></tr>
+                    <tr><td><strong>Disentería:</strong></td><td>Deposición mucosanguinolenta.</td></tr>
+                    <tr><td><strong>Lientería:</strong></td><td>Diarrea en la que se pueden reconocer a simple vista alimentos no digeridos; traduce un tránsito intestinal acelerado.</td></tr>
+                    <tr><td><strong>Acolia/Hipoacolia:</strong></td><td>Heces de color blanco o masilla (acolia), debida a la disminución acentuada del urobilinógeno fecal. Característica del síndrome colédociano.</td></tr>
+                    <tr><td><strong>Melena:</strong></td><td>Deposición de aspecto negro, alquitranado (como petróleo), debido a la hemorragia digestiva alta.</td></tr>
+                    <tr><td><strong>Hematemesis:</strong></td><td>Vómito de sangre.</td></tr>
+                    <tr><td><strong>Ascitis:</strong></td><td>Acumulación anormal de líquido en la cavidad peritoneal. Puede ser quilosa (linfática) o por hemoperitoneo.</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </details>
+
+    <details class="seccion" id="seccion2" open>
+        <summary>II. Técnicas de Exploración (Semiotecnia Minuciosa)</summary>
+        <div class="contenido-seccion">
+            <p>El examen físico debe realizarse con la secuencia <strong>Inspección, Auscultación, Percusión y Palpación</strong>.</p>
+            
+            <details class="sub-seccion">
+                <summary>A. Inspección</summary>
+                <div class="contenido-sub-seccion">
+                    <ul>
+                        <li><strong>Actitud y Posición:</strong> Observar si el paciente está inquieto (dolor cólico) o inmóvil (peritonitis).</li>
+                        <li><strong>Configuración:</strong> Evaluar si el abdomen es globoso, excavado, o en batracio (ascitis voluminosa).</li>
+                        <li><strong>Piel:</strong> Buscar cicatrices (ej. cirugías previas, bridas), lesiones cutáneas (ej. erupciones, telangiectasias, ictericia).</li>
+                        <li><strong>Movimientos:</strong> Observar latidos (aórticos) y ondas peristálticas visibles (sugiere obstrucción intestinal, como en íleo).</li>
+                        <li><strong>Signos de Hemorragia Retroperitoneal:</strong> Buscar <strong>Signo de Grey Turner</strong> (equimosis en flancos) y <strong>Signo de Halsted-Cullen</strong> (equimosis periumbilical).</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>B. Auscultación</summary>
+                <div class="contenido-sub-seccion">
+                    <h4>Ruidos Hidroaéreos (RHA):</h4>
+                    <p>Evaluar su presencia o ausencia y características.</p>
+                    <ul>
+                        <li><strong>Ausentes:</strong> Sugieren íleo paralítico (ej. peritonitis).</li>
+                        <li><strong>Aislados/Disminuidos:</strong> Íleo paralítico o mecánico inicial.</li>
+                        <li><strong>Aumentados:</strong> Sugieren hiperperistaltismo (diarrea, obstrucción intestinal).</li>
+                    </ul>
+                    <ul>
+                        <li><strong>Soplos:</strong> Buscar soplos abdominales sobre arterias aorta, renales e ilíacas.</li>
+                        <li><strong>Frotes:</strong> Menos comunes, pueden indicar periesplenitis o perihepatitis.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>C. Percusión</summary>
+                <div class="contenido-sub-seccion">
+                    <ul>
+                        <li><strong>Timpanismo/Matidez:</strong> El abdomen es normally timpánico. Buscar el área dolorosa al final.</li>
+                        <li><strong>Matidez Hepática:</strong> Buscar la desaparición de la matidez hepática (<strong>Signo de Jobert</strong>), signo de neumoperitoneo por perforación de víscera hueca.</li>
+                        <li><strong>Ascitis (Detección):</strong>
+                            <ul>
+                                <li><strong>Matidez Desplazable:</strong> El área de matidez se desplaza con el cambio de decúbito.</li>
+                                <li><strong>Onda Ascítica (Signo de la Ola):</strong> Percepción de una onda líquida al percutir un flanco y recibirla en el opuesto.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>D. Palpación (Superficial y Profunda)</summary>
+                <div class="contenido-sub-seccion">
+                    <h4>1. Palpación General y Peritoneal:</h4>
+                    <ul>
+                        <li><strong>Maniobra de la Mano de Escultor de Merlo:</strong> Evaluación de la pared, trofismo y temperatura.</li>
+                        <li><strong>Tensión y Defensa Abdominal:</strong> Rigidez y resistencia muscular. <strong>Abdomen en tabla</strong> (rigidez involuntaria extrema) es sugestivo de peritonitis.</li>
+                        <li><strong>Signos de Irritación Peritoneal:</strong>
+                            <ul>
+                                <li><strong>Signo del Rebote (Blumberg):</strong> Dolor a la descompresión brusca de la pared.</li>
+                                <li><strong>Signo de Guéneau de Mussy:</strong> Dolor de rebote generalizado. Sugiere peritonitis generalizada.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Puntos Dolorosos:</strong> Punto de McBurney (apendicitis). Puntos pancreáticos.</li>
+                        <li><strong>Signos de Psoas/Obturador:</strong> Irritación peritoneal sobre estas estructuras.</li>
+                    </ul>
+                    <h4>2. Palpación Profunda (Vísceras y Ascitis):</h4>
+                    <ul>
+                        <li><strong>Hígado:</strong> Palpar el borde, forma, superficie y consistencia. Maniobra de la Mano en Cuchara (Enganche de Mathieu). Un hígado doloroso sugiere hepatitis aguda o congestión.</li>
+                        <li><strong>Vesícula Biliar:</strong>
+                            <ul>
+                                <li><strong>Signo de Murphy:</strong> Detención abrupta de la inspiración a la palpación del HCD. Sugiere colecistitis aguda.</li>
+                                <li><strong>Signo de Courvoisier-Terrier:</strong> Vesícula palpable no dolorosa con ictericia. Orienta a cáncer de la cabeza del páncreas.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Bazo:</strong> Palpar el polo inferior. Esplenomegalia.</li>
+                        <li><strong>Bazuqueo Gástrico (Sucusión Gástrica):</strong> Movimiento rápido con las manos. Positivo en ayunas, sugiere obstrucción pilórica.</li>
+                        <li><strong>Peloteo Renal:</strong> Palpación bimanual del riñón.</li>
+                    </ul>
+                </div>
+            </details>
+        </div>
+    </details>
+
+    <details class="seccion" id="seccion3">
+        <summary>III. Signos y Síntomas Cardinales y Correlación Clínica</summary>
+        <div class="contenido-seccion">
+
+            <details class="sub-seccion">
+                <summary>1. Trastornos de la Deglución (Disfagia/Odinofagia)</summary>
+                <div class="contenido-sub-seccion">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tipo de Trastorno</th>
+                                <th>Características Semioclínicas</th>
+                                <th>Etiología y DxD (Razonamiento Fisiopatológico)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Disfagia Orofaríngea (Alta)</strong></td>
+                                <td>Dificultad al inicio de la deglución. Riesgo de aspiración (tos, regurgitación nasal). Afecta principalmente líquidos.</td>
+                                <td>Neuromusculares: ACV, Parkinson, Esclerodermia, Diabetes (neuropatía), Enfermedad de Chagas. Común en el adulto mayor.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Disfagia Esofágica (Baja/Distal)</strong></td>
+                                <td>Sensación de detención retroesternal.</td>
+                                <td><strong>Obstructivas/Mecánicas (Evolución Lógica):</strong> De sólidos a líquidos. Cáncer esofágico, estenosis péptica, divertículo de Zenker.<br>
+                                <strong>Motoras (Evolución Ilógica/Intermitente):</strong> Acalasia, espasmo difuso, esclerodermia.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>2. Trastornos de la Digestión (Dispepsia)</summary>
+                <div class="contenido-sub-seccion">
+                    <p><strong>Síntomas Dispépticos (Enumeración Completa):</strong> Sensación de distensión abdominal, eructación, flatulencia anal, acidez, pirosis (sensación de quemazón retroesternal), saciedad precoz, ardor, náuseas.</p>
+                    <h4>Diagnóstico Diferencial (Orgánica vs. Funcional):</h4>
+                    <ul>
+                        <li><strong>Funcional (Dispepsia no investigada):</strong> Síntomas inespecíficos, sin signos de alarma. Se diagnostica por exclusión.</li>
+                        <li><strong>Orgánica (Síntomas/Signos de Alarma):</strong> Sugieren patología estructural o malignidad:
+                            <ul>
+                                <li>Edad mayor de 55 años.</li>
+                                <li>Anorexia o pérdida de peso significativa.</li>
+                                <li>Disfagia u odinofagia progresiva.</li>
+                                <li>Vómitos persistentes.</li>
+                                <li>Hematemesis o ictericia.</li>
+                                <li>Anemia.</li>
+                                <li>Antecedentes familiares de cáncer gástrico.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>3. Náuseas y Vómitos</summary>
+                <div class="contenido-sub-seccion">
+                    <h4>Tipos de Vómito y Correlación:</h4>
+                    <ul>
+                        <li><strong>Vómito en Chorro:</strong> Sugiere Hipertensión Endocraneana.</li>
+                        <li><strong>Vómito Fecaloide:</strong> Obstrucción intestinal baja o fístulas.</li>
+                        <li><strong>Vómito en Borra de Café:</strong> Sangre parcialmente digerida, sugiere HDA.</li>
+                    </ul>
+                    <p><strong>DxD Extradigestivo:</strong> HTE, Uremia (Síndrome Urémico), Cetoacidosis Diabética, IAM, Pielonefritis, Sepsis.</p>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>4. Diarrea y Constipación</summary>
+                <div class="contenido-sub-seccion">
+                    <h4>A. Diarrea (Clasificación Fisiopatológica)</h4>
+                    <ul>
+                        <li><strong>Secretoria:</strong> Secreción activa de líquido (ej. toxinas como <i>Vibrio cholerae</i>, VIPomas). Persiste en el ayuno.</li>
+                        <li><strong>Osmótica:</strong> Presencia de solutos no absorbibles. Cesa con el ayuno (ej. Malabsorción, Deficiencia de Lactasa).</li>
+                        <li><strong>Exudativa (Inflamatoria):</strong> Daño de la mucosa. Con elementos patológicos (sangre, pus, moco). Ej. EII (Crohn, CU), Disentería.</li>
+                        <li><strong>Por Trastornos de la Motilidad:</strong> Tránsito anormalmente rápido (ej. SII, Neuropatía Diabética).</li>
+                    </ul>
+                    <h4>B. Constipación</h4>
+                    <ul>
+                        <li><strong>Etiología (Extracolónica):</strong> Endocrinometabólicas (Hipotiroidismo, Hipercalcemia, Diabetes). Neurológicas (Parkinson, Esclerosis Múltiple).</li>
+                        <li><strong>Alarma:</strong> Comienzo reciente, pérdida de peso, hematoquecia.</li>
+                        <li><strong>Hallazgo Físico:</strong> Escala de Heces de Bristol (Tipos 1 y 2, duros y grumosos).</li>
+                    </ul>
+                </div>
+            </details>
+            
+            <details class="sub-seccion">
+                <summary>5. Hemorragia Digestiva (HD)</summary>
+                <div class="contenido-sub-seccion">
+                    <h4>HDA (Melena/Hematemesis):</h4>
+                    <p>Melena (oscura, digerida). Hematemesis (sangrado activo alto).</p>
+                    <ul>
+                        <li><strong>Causas:</strong> Úlcera Péptica (AINEs/AAS, H. pylori), Várices Esofágicas (HTP/Cirrosis), Síndrome de Mallory-Weiss.</li>
+                    </ul>
+                    <h4>HDB (Hematoquecia/Rectorragia):</h4>
+                    <p>Hematoquecia (mezclada). Rectorragia (roja rutilante pura).</p>
+                    <ul>
+                        <li><strong>Causas:</strong> Hemorroides y Fisura Anal (causa más común de rectorragia pura). Diverticulosis (en ancianos).</li>
+                    </ul>
+                    <p><strong>Inestabilidad Hemodinámica:</strong> FC > 100 lpm, TA sistólica < 100 mmHg, mareos o lipotimia.</p>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>6. Ictericia</summary>
+                <div class="contenido-sub-seccion">
+                    <ul>
+                        <li><strong>Tipos Semiológicos:</strong> Flavínica (prehepática/hemolítica), Rubínica (hepatocelular), Verdínica (colestásica).</li>
+                        <li><strong>Correlación Fisiopatológica:</strong>
+                            <ul>
+                                <li><strong>Prehepática (Hemolítica):</strong> Predominio de bilirrubina no conjugada. Tríada: Ictericia, Anemia, Esplenomegalia.</li>
+                                <li><strong>Posthepática (Colestásica/Obstructiva):</strong> Predominio de bilirrubina conjugada. Se acompaña de <strong>Coluria</strong> (orina oscura) y <strong>Acolia</strong> (heces pálidas). Prurito asociado.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Hallazgos de Examen Físico:</strong> Vesícula palpable (Courvoisier), Telangiectasias y Palma Hepática (Cirrosis).</li>
+                    </ul>
+                </div>
+            </details>
+
+        </div>
+    </details>
+
+    <details class="seccion" id="seccion4">
+        <summary>IV. Perlas Clínicas y Razonamiento Fisiopatológico</summary>
+        <div class="contenido-seccion">
+            
+            <div class="perla-clinica">
+                <strong>Signo de Courvoisier-Terrier:</strong> Vesícula palpable no dolorosa en paciente ictérico con pérdida de peso. Orienta a cáncer de la cabeza del páncreas.
+            </div>
+            <div class="perla-clinica">
+                <strong>Intolerancia a Colecistocinéticos:</strong> Los alimentos grasos, yema de huevo, crema y chocolate son mal tolerados y provocan dolor en HCD. Sugiere patología vesicular.
+            </div>
+            <div class="perla-clinica">
+                <strong>Rigidez Abdominal (Abdomen en Tabla):</strong> Sugiere irritación peritoneal intensa, como en perforación de víscera hueca.
+            </div>
+            <div class="perla-clinica">
+                <strong>Dolor Pancreático y Vómitos:</strong> En la pancreatitis aguda, los vómitos suelen ser copiosos, pero no alivian el dolor.
+            </div>
+            <div class="perla-clinica">
+                <strong>Fiebre y Escalofíos en Ictericia:</strong> Sugiere una colédocolitiasis u obstrucción complicada (Colangitis).
+            </div>
+            <div class="perla-clinica">
+                <strong>Anorexia y Repugnancia a la Carne/Tabaco:</strong> En un sujeto en la quinta década de la vida, junto con dolor epigástrico continuo y enflaquecimiento, sugiere cáncer gástrico.
+            </div>
+            <div class="perla-clinica">
+                <strong>Angina Abdominal de Oertner:</strong> Dolor epigástrico posprandial, por isquemia de la pared intestinal.
+            </div>
+
+        </div>
+    </details>
+
+    <details class="seccion" id="seccion5">
+        <summary>V. Síndromes y Patologías Principales</summary>
+        <div class="contenido-seccion">
+
+            <details class="sub-seccion">
+                <summary>A. Síndrome Ulceroso y Gastritis</summary>
+                <div class="contenido-sub-seccion">
+                    <p><strong>Síndrome Ulceroso:</strong> Dolor abdominal crónico, epigástrico.</p>
+                    <ul>
+                        <li><strong>Características Cardinales:</strong> Periodicidad (episodios de dolor/bienestar) y Ritmicidad (se alivia con alimentos o antiácidos). Dolor urente o “vacío estomacal”.</li>
+                        <li><strong>Fisiopatología/Etiología:</strong> Úlcera gástrica o duodenal (H. pylori o AINEs).</li>
+                        <li><strong>Gastritis Atrófica/Neoplasia:</strong> El antecedente de gastritis atrófica alerta sobre posible neoplasia gástrica o anemia perniciosa.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>B. Síndrome Pilórico (Retención Gástrica)</summary>
+                <div class="contenido-sub-seccion">
+                    <ul>
+                        <li><strong>Componentes Clínicos:</strong> Vómitos, distensión abdominal, anorexia, saciedad precoz, pérdida de peso.</li>
+                        <li><strong>Vómitos de Retención:</strong> Característicos, con alimentos ingeridos muchas horas antes.</li>
+                        <li><strong>Signo Cardinal:</strong> <strong>Bazuqueo Gástrico</strong> (chapoteo) en ayunas.</li>
+                        <li><strong>Etiología:</strong> Obstrucción mecánica (úlcera, neoplasia) o funcional (Gastroparesia Diabética).</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>C. Íleo (Obstrucción Intestinal)</summary>
+                <div class="contenido-sub-seccion">
+                    <ul>
+                        <li><strong>Clínica:</strong> Dolor abdominal cólico intermitente, vómitos y falta de eliminación de deposiciones y gases.</li>
+                        <li><strong>Clasificación y DxD:</strong>
+                            <ul>
+                                <li><strong>Íleo Mecánico (Obstructivo):</strong> Por bridas/adherencias (cirugías previas), hernias. RHA aumentados (lucha).</li>
+                                <li><strong>Íleo Paralítico (Adinámico):</strong> Por peritonitis, hipopotasemia. RHA ausentes.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Hallazgos Radiológicos Clave:</strong> Niveles hidroaéreos, imagen en "pilas de monedas".</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>D. Peritonitis</summary>
+                <div class="contenido-sub-seccion">
+                    <ul>
+                        <li><strong>Fisiopatología:</strong> Inflamación de la serosa peritoneal.</li>
+                        <li><strong>Clínica:</strong> Dolor generalizado que exacerba con el movimiento. Fiebre y taquicardia.</li>
+                        <li><strong>Hallazgos Semiológicos:</strong>
+                            <ul>
+                                <li><strong>Inspección:</strong> Escasa excursión abdominal con la respiración.</li>
+                                <li><strong>Palpación:</strong> <strong>Abdomen en tabla</strong>, defensa, <strong>Signo de Guéneau de Mussy</strong> (rebote generalizado).</li>
+                                <li><strong>Auscultación:</strong> Ausencia de RHA (íleo paralítico).</li>
+                                <li><strong>Percusión:</strong> Desaparición de la matidez hepática (<strong>Signo de Jobert</strong>).</li>
+                            </ul>
+                        </li>
+                        <li><strong>Etiología Común:</strong> Perforación de víscera hueca.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>E. Síndrome de Malabsorción</summary>
+                <div class="contenido-sub-seccion">
+                    <ul>
+                        <li><strong>Clínica Cardinal:</strong> Diarrea crónica (osmótica/secretoria), <strong>Esteatorrea</strong> (deposiciones amarillentas, brillantes, flotan), Pérdida de Peso con apetito conservado.</li>
+                        <li><strong>Manifestaciones Carenciales (Extensas):</strong>
+                            <ul>
+                                <li><strong>Hematológicas:</strong> Anemia (ferropénica o megaloblástica).</li>
+                                <li><strong>Coagulación:</strong> TP prolongado (déficit Vit K). Hematomas.</li>
+                                <li><strong>Óseas:</strong> Osteopenia (déficit Vit D y Calcio).</li>
+                            </ul>
+                        </li>
+                        <li><strong>Fases Afectadas (DxD):</strong>
+                            <ul>
+                                <li><strong>Luminal:</strong> Insuficiencia Pancreática Exocrina, Colestasis.</li>
+                                <li><strong>Mucosa:</strong> Enfermedad Celíaca, Crohn, Whipple.</li>
+                                <li><strong>Transporte:</strong> Obstrucción linfática (Linfoma).</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>F. Síndrome Diarreico Crónico y SII</summary>
+                <div class="contenido-sub-seccion">
+                    <h4>SII (Síndrome del Intestino Irritable):</h4>
+                    <ul>
+                        <li><strong>Definición:</strong> Trastorno funcional con dolor abdominal crónico asociado a alteraciones del hábito evacuatorio.</li>
+                        <li><strong>DxD Clave (Síntomas de Alarma):</strong> Síntomas nocturnos, pérdida de peso y sangre en heces sugieren patología orgánica.</li>
+                    </ul>
+                    <h4>Enfermedad Inflamatoria Intestinal (EII):</h4>
+                    <ul>
+                        <li><strong>Clínica:</strong> Diarrea sanguinolenta, fiebre, dolor. Manifestaciones extraintestinales (artritis, uveítis).</li>
+                        <li><strong>Lab Clave:</strong> Anemia, leucocitosis, VHS/PCR alta, hipoalbuminemia.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>G. Síndromes Hepatobiliares y Pancreáticos</summary>
+                <div class="contenido-sub-seccion">
+                    <h4>Hepatitis Aguda Viral:</h4>
+                    <ul>
+                        <li><strong>Clínica Prodrómica:</strong> Astenia, anorexia, náuseas, aversión al cigarrillo.</li>
+                        <li><strong>Fase Ictérica:</strong> Coluria y acolia (antes) e ictericia.</li>
+                        <li><strong>Examen Físico:</strong> Hepatomegalia dolorosa.</li>
+                        <li><strong>Lab Clave:</strong> Aumento marcado de Transaminasas (GOT/GPT).</li>
+                    </ul>
+                    <h4>Cirrosis e Insuficiencia Hepática:</h4>
+                    <ul>
+                        <li><strong>HTP (Semiología):</strong> Ascitis, Esplenomegalia, Várices esofágicas (HDA), Circulación colateral.</li>
+                        <li><strong>Insuficiencia Hepática (Clínica):</strong> Ictericia, Encefalopatía Hepática (Asterixis, confusión), Fetor Hepático.</li>
+                        <li><strong>Lab Clave (Disfunción):</strong> Hipoalbuminemia y TP prolongado.</li>
+                    </ul>
+                    <h4>Síndromes Vesiculares (Colecistitis/Cólico Biliar):</h4>
+                    <ul>
+                        <li><strong>Cólico Biliar:</strong> Dolor HCD tipo cólico, irradia a hombro/escápula. Desencadenado por colecistocinéticos.</li>
+                        <li><strong>Colecistitis Aguda:</strong> Dolor persistente, <strong>Signo de Murphy positivo</strong>, fiebre.</li>
+                    </ul>
+                    <h4>Síndromes Pancreáticos (Pancreatitis Aguda):</h4>
+                    <ul>
+                        <li><strong>Clínica:</strong> Dolor epigástrico intenso, irradiado al dorso (en faja), <strong>NO aliviado por los vómitos</strong>.</li>
+                        <li><strong>Fisiopatología:</strong> Puede simular apendicitis o causar íleo (asa centinela).</li>
+                        <li><strong>Signos Graves:</strong> Equimosis periumbilical (Cullen) o en flancos (Grey Turner).</li>
+                        <li><strong>Lab Clave:</strong> Aumento de Amilasa y Lipasa (> 3 VN).</li>
+                    </ul>
+                </div>
+            </details>
+        </div>
+    </details>
+
+    <details class="seccion" id="seccion6">
+        <summary>VI. Exámenes de Laboratorio Clave</summary>
+        <div class="contenido-seccion">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Patología / Síndrome</th>
+                        <th>Signos de Laboratorio Clave (Hallazgos)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Ictericia (Obstructiva)</strong></td>
+                        <td>Bilirrubina Directa elevada, Fosfatasa Alcalina (FA) y GGT elevadas (Patrón Colestásico).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ictericia (Hemolítica)</strong></td>
+                        <td>Bilirrubina Indirecta elevada, LDH y Reticulocitos elevados, Haptoglobina descendida.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hepatitis Aguda</strong></td>
+                        <td>Transaminasas (GOT/GPT) marcadamente elevadas (Patrón Citolítico).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Insuficiencia Hepática</strong></td>
+                        <td>TP (Tiempo de Protrombina) prolongado, Hipoalbuminemia, Bilirrubina elevada.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pancreatitis Aguda</strong></td>
+                        <td>Amilasa y Lipasa séricas elevadas (> 3 veces VN).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hemorragia Digestiva</strong></td>
+                        <td>Hb/Hto bajos. Aumento de Urea/Creatinina (en HDA).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Anemia Ferropénica</strong> (asociada a HDA crónica)</td>
+                        <td>VCM bajo, Ferritina baja.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Malabsorción</strong></td>
+                        <td>Grasa en materia fecal, TP prolongado (Vit K), Anemia (B12/Folato/Fe), Elastasa Fecal (pancreática).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>EII/Orgánica</strong></td>
+                        <td>Eritrosedimentación/PCR alta, Leucocitosis, Hipoalbuminemia.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Síndrome de Zollinger-Ellison</strong></td>
+                        <td>Gastrina elevada.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </details>
+
+</body>
+</html>
